@@ -1,12 +1,11 @@
-title: 王者之心
+title: 夏光辉的主页
 author: Shine Xia
 email: shine.xgh@gmail.com
-description: > # this means to ignore newlines until "show_excerpts:"
-  Yet another blog about software engineering.
+description: # this means to ignore newlines until "show_excerpts:"
 
 show_excerpts: false # set to true to show excerpts on the homepage
 
-permalink: /posts/:year-:month-:title/
+permalink: /blog/:title/
 
 # Minima date format
 # refer to https://shopify.github.io/liquid/filters/date/ if you want to customize this
