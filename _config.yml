@@ -2,7 +2,7 @@ title: 夏光辉的主页
 author: Shine Xia
 email: shine.xgh@gmail.com
 description: > # this means to ignore newlines until "show_excerpts:"
-  Yet another blog about software engineering.
+  Yet Another Software Engineer.
 show_excerpts: false # set to true to show excerpts on the homepage
 
 url: "https://xgh.io" # the base hostname & protocol for your site, e.g. http://example.com
