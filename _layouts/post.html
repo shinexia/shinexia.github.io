@@ -19,9 +19,12 @@ layout: default
     {{ content }}
   </div>
 
+  <div>
+    <p>本文发自 <a href="{{ page.url }}">https://xgh.io{{ site.baseurl }}{{ page.url }}</a> </p>
+    <p>采用<a href="{{ site.copyright.url }}" target="_blank">{{ site.copyright.name }}</a>进行许可</p>
+  </div>
+
   {%- if site.disqus.shortname -%}
     {%- include disqus_comments.html -%}
   {%- endif -%}
-
-  <a class="u-url" href="{{ page.url | relative_url }}" hidden></a>
 </article>

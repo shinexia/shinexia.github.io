@@ -3,28 +3,37 @@ author: Shine Xia
 email: shine.xgh@gmail.com
 description: > # this means to ignore newlines until "show_excerpts:"
   Yet another blog about software engineering.
-
 show_excerpts: false # set to true to show excerpts on the homepage
 
-permalink: /posts/:year-:month-:title/
+url: "https://xgh.io" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "" # the subpath of your site, e.g. /blog
+permalink: /blog/:title/
+
+# highlighter
+markdown: kramdown
+highlighter: rouge
 
 # Minima date format
 # refer to https://shopify.github.io/liquid/filters/date/ if you want to customize this
 minima:
+  # skin: monokai
   date_format: "%b %-d, %Y"
 
   # generate social links in footer
   social_links:
-    github:  shinexia
+    github: shinexia
     rss: rss
     linkedin: shinexia
 
+copyright:
+  name: 共享署名-非商业性使用-相同方式共享 4.0 国际协议
+  url: https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh
 
 # If you want to link only specific pages in your header, uncomment
 # this and add the path to the pages in order as they should show up
 header_pages:
- - about.md
+  - about.md
 
 plugins:
- - jekyll-feed
- - jekyll-seo-tag
+  - jekyll-feed
+  - jekyll-seo-tag
